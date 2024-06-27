@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+
+
+
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    
+   
+  padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilos da seção de destaque (hero) */
+  .hero {
+    background-image: url('gym-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Estilos da seção de recursos (features) */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+
+  /* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+  
+  
